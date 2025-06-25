@@ -1,0 +1,22 @@
+# 2)
+# string,integer,float.
+# 3)
+a = str(input())
+b = int(a)
+print(b)
+# 4)
+c = input()
+print(type(c))
+# 5)
+name = 'saba'
+name2 = input()
+print(name + name2)
+# 6)
+number = input()
+number2 = int(number)
+print(number2 / 2)
+# 7)
+Name = 'saba'
+thing = input()
+thing2 = int(thing)
+print(Name * thing2)
