@@ -1,0 +1,1 @@
+print('i wasnt at the lesson')
