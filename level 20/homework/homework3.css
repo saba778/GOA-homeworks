@@ -1,0 +1,49 @@
+body{
+    background-color: gray;
+}
+
+
+#oldhead {
+    text-align: center;
+    font-family:monospace;
+    background-color: whitesmoke;
+    
+}
+header {
+    
+    text-align: center;
+    font-family: monospace;
+    background-color: whitesmoke;
+}
+#div2 {
+    text-align: left;
+}
+
+a {
+    font-family: monospace;
+    color: black;
+}
+
+#div1 {
+    text-align: center; 
+}
+#div3 {
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode',  Verdana, sans-serif;
+    background-color: whitesmoke;
+}
+
+h1 {
+    
+    text-align: center;
+    font-family: monospace;
+    background-color: whitesmoke;
+}
+#div4 {
+    text-align: center; 
+}
+#div5 {
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode',  Verdana, sans-serif;
+    background-color: whitesmoke;
+}

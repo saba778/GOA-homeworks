@@ -1,0 +1,34 @@
+body{
+    background-color: gray;
+}
+
+header {
+    
+    text-align: center;
+    font-family: monospace;
+    background-color: whitesmoke;
+}
+
+#div1 {
+    text-align: center; 
+}
+
+#bmw {
+    text-align: center;
+}
+
+#div2 {
+    text-align: left;
+}
+
+#div3 {
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode',  Verdana, sans-serif;
+    background-color: whitesmoke;
+}
+
+
+a {
+    font-family: monospace;
+    color: black;
+}
