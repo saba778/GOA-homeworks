@@ -1,0 +1,34 @@
+/* 1) CSS-ის ფაილში კომენტარის სახით ახსენით თ რა უპირატესობა აქვს class-ების გამოყენებას. */
+/* class-ის გამოყენებით უფრო იოლად შეგიძლია დააძგუფო ელემენტები ვიდრე id ან <div>-ს თუ გამოიყენებ */
+
+h1.bmw {
+    text-align: center;
+    border: 2px blue solid;
+    color: blueviolet;
+    
+}
+p.bmw {
+    color: blue;
+    text-align: center;
+}
+img.bmw {
+    border: 3px red solid;
+   
+}
+
+h1.BEAR {
+    text-align: center;
+    border: 2px blue solid;
+    color: blueviolet;
+}
+
+p.BEAR {
+    text-align: center;
+    color: green;
+}
+img.BEAR {
+    border: 3px purple double;
+}
+
+
+
