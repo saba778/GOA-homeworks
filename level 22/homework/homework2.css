@@ -1,0 +1,21 @@
+body{
+    background-color: sandybrown;
+}
+div{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: cadetblue;
+   
+    
+}
+
+footer{
+    background-color: cadetblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: azure;
+
+}
