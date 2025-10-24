@@ -1,0 +1,50 @@
+a {
+    text-decoration: aqua underline;
+}
+a:visited {
+    color:blueviolet
+}
+#something {
+    width: 500px;
+    height: 500px;
+}
+#something:hover {
+    background-color: green;
+}
+#something{
+    transition: 5s;
+}
+button:active {
+    background-color: blue;
+    border:2px solid red
+}
+#p {
+    font-family: monospace;
+}
+#h1 {
+    font-family: sans-serif;
+}
+#b {
+    font-family: fantasy;
+}
+#p1 {
+    text-decoration: underline
+}
+#p2 {
+    text-decoration: overline
+}
+#p3 {
+    text-decoration: line-through
+}
+#p4 {
+    text-decoration: none
+}
+
+img:hover {
+    height: 500px;
+    border-radius: 300px;
+    border: 4px ridge red;
+}
+img {
+    transition: 3s
+}
