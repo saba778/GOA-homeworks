@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>homework</title>
+    <style>
+        #table123 {
+            border-collapse: collapse;
+        }
+        #table123,#table123 td,#table123 tr,#table123 th {
+            border: 1px black solid;
+            padding: 10px 20px;
+        }
+        #table123 tbody tr :nth-child(1) {
+          background-color: lawngreen;
+          color: white;
+        }
+        #table123 tbody tr :nth-child(2) {
+            background-color: darkgreen;
+            color: white;
+        }
+        #table123 tbody tr :nth-child(3) {
+            background-color: darkgoldenrod;
+            color: white;
+        }   
+        #table123 tbody tr :nth-child(4) {
+            background-color: orange;
+            color: white;
+        }
+        #table123 tbody tr :nth-child(5) {
+            background-color: red;
+            color: white;
+         }
+
+        #table123 thead, #table123 tr {
+            background-color: lightblue; 
+            color: black;
+            }
+        #table321 {
+            border-collapse: collapse;
+            border: 1px solid black;
+        }
+        #table321 td {
+            border: black 1px solid;
+        }
+    </style>
+</head>
+<body>
+    <!-- 1) შექმენით დაულაგებელი სია, შემდგარი 5 ელემენტისგან და შუაში ჩააშენეთ დალაგებული სია შემდგარი 3 ელემენტისგან -->
+
+    <ul>
+        <li>test</li>
+        <li>test</li>
+        <li>
+            <ol>
+                <li>test</li>
+                <li>test</li>
+                <li>test</li>
+            </ol>
+        </li>
+        <li>test</li>
+        <li>test</li>
+    </ul>
+
+    <!-- 2) შექმენით დალაგებული სია სადაც სიის ელემენტებათ იქნება ჩაშენებული <a> თეგები, თითოეულ სიის ელემენტზე დაკლიკებას მომხმარებელი სხვადასხვა ლინკებზე უნდა გადაჰყავდეს. -->
+        <ol>
+            <li><a href="https://www.youtube.com/">youtube</a></li>
+            <li ><a href="https://open.spotify.com/">spotify</a></li>
+        </ol>
+    <!-- 3) გააკეთე მსგავსი დიზაინით: -->
+    <table  id="table123">
+            <thead>
+                <tr>
+                    <th>S.R</th><th>Name</th><th>Address</th><th>Number</th><th>Country</th>
+                </tr>
+            </thead>
+        <tbody>
+            <tr>
+                <td>1</td><td>John</td><td>California</td><td>321732</td><td>USA</td>
+            </tr>
+            <tr>
+                <td>1</td><td>John</td><td>California</td><td>321732</td><td>USA</td>
+            </tr>
+            <tr>
+                <td>1</td><td>John</td><td>California</td><td>321732</td><td>USA</td>
+            </tr>
+            <tr>
+                <td>1</td><td>John</td><td>California</td><td>321732</td><td>USA</td>
+            </tr>
+            <tr>
+                <td>1</td><td>John</td><td>California</td><td>321732</td><td>USA</td>
+            </tr>
+        </tbody>
+    </table>
+
+<!-- 4) გააკეთეთ მსგავსი დიზაინი: -->
+    <table id="table321">
+        <thead>
+            <th>test</th><th>test</th><th>test</th>
+        </thead>
+         <tr>
+            <td>test</td><td>test</td><td>test</td>
+         </tr>
+         <tr>
+            <td></td><td>test</td><td>test</td>
+         </tr>
+         <tr>
+            <td>test</td>
+         </tr>
+         
+    </table>
+    
+</body>
+</html>

@@ -1,0 +1,23 @@
+input:hover {
+    color: crimson;
+    background-color: black;
+}
+
+button:hover {
+    color: blue;
+    height: 40px;
+}
+
+table:nth-child(even) {
+    background-color: black;
+    color: aliceblue;
+}
+
+table:nth-child(odd) {
+    color: red;
+    background-color: blue;
+}
+
+.red:hover {
+    text-decoration: line-through black solid;
+}
