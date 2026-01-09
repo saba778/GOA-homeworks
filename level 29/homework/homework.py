@@ -1,0 +1,1 @@
+print('the homework was to regester to codewars')
