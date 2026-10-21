@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Commissioner:wght@100..900&display=swap');
+
+body {
+    font-family: Commissioner;
+    height: 300%;
+    width: 1400px;
+    margin: 0;
+    display: flex;
+    
+}
+
+
+
+#head {
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    width: 100%;
+}
+
+#logo {
+    position: absolute;
+    right: 45%;
+    top: 17%;
+}
+#div1{
+    text-align: center;
+    margin-top: 310px;
+    margin-left: 38%;
+    height: 250px;
+    position: absolute;
+}
+
+
+#buttons {
+    position: absolute;
+    margin-top: 490px;
+    margin-left: 41%;
+}
+
+#button1 {
+    background-color: hsl(171, 66%, 44%);
+    border: none;
+    height: 50px;
+    width: 200px;
+    border-radius: 15px;
+    color: white;
+    font-weight: 700;
+    margin-right: 20px;
+}
+
+#button2 {
+    background-color: hsl(233, 100%, 69%);
+    border: none;
+    height: 50px;
+    width: 200px;
+    border-radius: 15px;
+    color: white;
+    font-weight: 700;
+}
+
+#div3 {
+    width: 600px;
+    text-align: center;
+    margin-left: 49%;
+    height: 150px;
+    margin-top: 700px;
+}
+
+
+#pc {
+    position: absolute;
+    left: 0;
+    margin-top: 920px;
+    height: 700px;
+}
+
+#div4 {
+    height: 300px;
+    position: absolute;
+    margin-top: 1000px;
+    margin-left: 1300px;
+    font-size: larger;
+}
+
+#div5 {
+    position: absolute;
+    margin-top: 1900px;
+    text-align: center;
+    margin-left: 32%;
+    font-size: larger;
+}
+
+#tech {
+    position: absolute;
+    height: 800px;
+    margin-top: 2100px;
+    margin-left: 320px;
+}
+
+#div6 {
+    height: 300px;
+    position: absolute;
+    text-align: center;
+    margin-top: 2980px;
+    margin-left: 40%;
+}
+
+.microdiv{
+    display: flex;
+    flex-direction: column;
+    font-size: larger;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 300px;
+    font-size: larger;
+    text-align: center;
+}
+
+#div7 {
+    display: flex;
+    position: absolute;
+    margin-top: 3150px;
+    height: 300px;
+    width: 1200px;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: 18%;
+}
+
+#div8 {
+    position: absolute;
+    display: flex;
+    width: 1200px;
+    height: 200px;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 3500px;
+    margin-left: 18%;
+    
+}

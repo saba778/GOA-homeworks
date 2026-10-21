@@ -1,0 +1,54 @@
+
+#div {
+    width: 1440px;
+    display: grid;
+    grid-template-columns: repeat(6,240px);
+    grid-template-rows: repeat(6,240px);
+    grid-template-areas: 
+    'div1, 2, 2, 2, 2, 3,'
+    'a, 2, 2, 2, 2, 3,'
+    '1, 6, 6, 5, 5, 3,'
+    '7, 6, 6, 5, 5, 3,'
+    '7, 8, 8, 4, 4, 4,'
+    '7, 8, 8, 4, 4, 4,';
+    border-radius: 20px;
+}
+
+
+#div1 {
+    grid-area: div1;
+    background-color: hsl(31, 66%, 93%);
+    border-radius: 20px;
+}
+#div2 {
+    grid-area: 2;
+    background-color: hsl(256, 67%, 59%);
+
+}
+#div3 {
+    grid-area: 3;
+    border-radius: 20px;
+}
+#div4 {
+    grid-area: 4;
+    border-radius: 20px;
+}
+#div5 {
+    grid-area: 5;
+    border-radius: 20px;
+}
+#div6 {
+    grid-area: 6;
+    border-radius: 20px;
+}
+#div7 {
+    grid-area: 7;
+}
+#div8 {
+    grid-area: 8;
+    
+}
+
+b {
+    color: hsl(256, 67%, 59%);
+}

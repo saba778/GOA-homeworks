@@ -1,0 +1,25 @@
+
+
+div {
+    background-color: red;
+    height: 400px;
+    width: 810px;
+}
+
+@media screen and (max-width:810px){
+    div {
+        background-color: green;
+        height: 400px;
+        width: 400px;
+    }
+    
+}
+
+@media screen and (max-width:410px){
+    div {
+        background-color: pink;
+        height: 400px;
+        width: 400px;
+    }
+    
+}
